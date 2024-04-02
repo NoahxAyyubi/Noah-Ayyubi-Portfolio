@@ -1,0 +1,132 @@
+/* Media query for screens with max width of 900px */
+@media screen and (max-width: 900px) {
+    /* Hide desktop navigation */
+    #desktop-nav {
+        display: none;
+    }
+    .icon-arrow{
+        display:none;
+    }
+    /* Show hamburger navigation */
+    #hamburger-nav {
+        display: flex;
+        
+    }
+
+    /* Style for hamburger menu */
+    .hamburger-menu {
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Remove bullets from menu links */
+    .menu-links li {
+        list-style-type: none;
+        
+    }
+
+    /* Slide-in animation for menu links */
+    .menu-links ul {
+        transform: translateX(100%);
+        animation: slideAndFadeIn 3s forwards;
+    }
+
+    /* Keyframes for slide-in and fade-in animation */
+    @keyframes slideAndFadeIn {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    #contact,
+    footer {
+      height: 40vh;
+    }
+    #profile {
+      height: 83vh;
+      margin-bottom: 0;
+    }
+    
+    article {
+      font-size: 1rem;
+    }
+    footer nav {
+      height: fit-content;
+      margin-bottom: 2rem;
+    }
+    .about-containers,
+    .contact-info-upper-container,
+    .btn-container {
+      flex-wrap: wrap;
+    }
+    .contact-info-container {
+      margin: 0;
+    }
+    .contact-info-container p,
+    .nav-links li a {
+      font-size: 1rem;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .logo {
+      font-size: 1.5rem;
+    }
+    #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  .section-container{
+    margin-top: -50px;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section-pic-container , .section-pic-container2{
+    width: 260px;
+    height: 260px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+  .title {
+    font-size: 1rem;
+    
+  }
+ 
+  .section-text-p2{
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      gap: 1rem;
+  }
+  }
+
+
+
+@media screen and (min-width: 901px) {
+    #desktop-nav a {
+        transition: all 6s ease; /* Apply transition to all properties */
+    }}
+
