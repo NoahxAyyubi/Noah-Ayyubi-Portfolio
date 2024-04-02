@@ -202,17 +202,7 @@ function Index() {
                   <p>Experienced</p>
                 </div>
               </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h4>SASS</h4>
-                  <p>Intermediate</p>
-                </div>
-              </article>
+            
               <article>
                 <img
                   src="./assets/checkmark.png"
@@ -251,17 +241,6 @@ function Index() {
           <div class="details-container">
             <h3 class="experience-sub-title">Backend Development</h3>
             <div class="article-container">
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h4>PostgreSQL</h4>
-                  <p>Basic</p>
-                </div>
-              </article>
               <article>
                 <img
                   src="./assets/checkmark.png"
