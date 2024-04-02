@@ -54,7 +54,7 @@ function Index() {
         </div>
       </nav>
       <nav id="hamburger-nav">
-        <div className="logo">Noah Ayyubi</div>
+        <div className="logo">Under<br></br>Development</div>
         <div className="hamburger-menu">
           <div className="hamburger-icon" onClick={toggleMenu}>
             <span></span>
