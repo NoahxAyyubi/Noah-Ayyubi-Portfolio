@@ -4,6 +4,9 @@ import { loadSlim } from "@tsparticles/slim";
 import "./App.css"; // Import your CSS files here
 import "./mediaqueries.css";
 
+// fix git hub
+// add projects
+
 function Index() {
   const [init, setInit] = useState(false);
   
@@ -92,7 +95,7 @@ function Index() {
           <div className="btn-container">
             <button
               className="btn-color-1"
-              onClick={() => window.open("/assets/resume-example.pdf")}
+              onClick={() => window.open("/assets/ResforWebsite.pdf")}
             >
               Download cv
             </button>
@@ -108,7 +111,7 @@ function Index() {
               src="/assets/linkedin.png"
               alt="my linked in pro"
               className="icon"
-              onClick={() => (window.location.href = "https://linkedin.com/")}
+              onClick={() => (window.location.href = "https://linkedin.com/noah-ayyubi")}
             />
             <img
               src="/assets/github.png"
@@ -155,12 +158,7 @@ function Index() {
       </div>
       <div className="text-container">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-          reprehenderit et laborum, rem, dolore eum quod voluptate
-          exercitationem nobis, nihil esse debitis maxime facere minus sint
-          delectus velit in eos quo officiis explicabo deleniti dignissimos.
-          Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-          reiciendis ea magnam? Nulla, impedit fuga!
+        Results-driven Full Stack Developer with extensive expertise in a wide range of programming languages, frameworks, and technologies. Proven track record of optimizing telecommunications infrastructure, developing high-performance applications, and implementing innovative solutions. Skilled in full software development lifecycle management, RESTful API design, and cloud-based deployment. Adept at mentoring and collaborating with cross-functional teams to drive success. Seeking a challenging Full Stack Developer role to leverage diverse technical skill set and experience to contribute to cutting-edge projects.
         </p>
       </div>
     </div>
@@ -211,7 +209,7 @@ function Index() {
                 />
                 <div>
                   <h4>JavaScript</h4>
-                  <p>Basic</p>
+                  <p>Experienced</p>
                 </div>
               </article>
               <article>
@@ -221,21 +219,11 @@ function Index() {
                   class="icon"
                 />
                 <div>
-                  <h4>TypeScript</h4>
-                  <p>Basic</p>
+                  <h4>React</h4>
+                  <p>Experienced</p>
                 </div>
               </article>
-              <article>
-                <img
-                  src="./assets/checkmark.png"
-                  alt="Experience icon"
-                  class="icon"
-                />
-                <div>
-                  <h4>Material UI</h4>
-                  <p>Intermediate</p>
-                </div>
-              </article>
+              
             </div>
           </div>
           <div class="details-container">
@@ -259,7 +247,18 @@ function Index() {
                   class="icon"
                 />
                 <div>
-                  <h4>Express JS</h4>
+                  <h4>Java</h4>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Java Spring Boot</h4>
                   <p>Intermediate</p>
                 </div>
               </article>
@@ -270,8 +269,8 @@ function Index() {
                   class="icon"
                 />
                 <div>
-                  <h4>Git</h4>
-                  <p>Intermediate</p>
+                  <h4>Mysql</h4>
+                  <p>Experienced</p>
                 </div>
               </article>
             </div>
@@ -381,7 +380,7 @@ function Index() {
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
+          <p><a href="mailto:nma9293569691@gmail.com">NMA9293569691@gmail.com</a></p>
         </div>
         <div class="contact-info-container">
           <img
@@ -389,7 +388,7 @@ function Index() {
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/in/noah-ayyubi/">LinkedIn</a></p>
         </div>
       </div>
     </section>

@@ -164,7 +164,7 @@ font-weight: 600;
   text-align: center;
 }
 #about {
-  top: 10px;
+  top: -20px;
   text-align: center;
   position: relative;
 }
@@ -218,6 +218,7 @@ font-weight: 600;
 #experience {
   position: relative;
   justify-content: center;
+  top: 50px;
 }
 
 .experience-sub-title {
@@ -297,7 +298,7 @@ article .icon {
   
 }#projects {
   position: relative;
-  margin-top: 20px;
+  top: 100px;
 }
 
 .color-container {
@@ -325,9 +326,9 @@ article .icon {
 
 #contact {
   display: flex;
-  justify-content: center;
+ top: 150px;
   flex-direction: column;
-  height: 70vh;
+  position: relative;
 }
 
 .contact-info-upper-container {
@@ -359,13 +360,4 @@ article .icon {
 
 .email-icon {
   height: 2.5rem;
-}/* FOOTER SECTION */
-
-footer {
-  height: 26vh;
-  margin: 0 1rem;
-}
-
-footer p {
-  text-align: center;
 }
