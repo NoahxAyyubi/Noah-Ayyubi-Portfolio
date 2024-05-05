@@ -111,7 +111,7 @@ function Index() {
               src="/assets/linkedin.png"
               alt="my linked in pro"
               className="icon"
-              onClick={() => (window.location.href = "https://linkedin.com/noah-ayyubi")}
+              onClick={() => (window.location.href = "https://linkedin.com")}
             />
             <img
               src="/assets/github.png"
@@ -301,13 +301,13 @@ function Index() {
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://github.com/NoahxAyyubi/eCommerce-Website.git'"
               >
                 Github
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
+                onclick="location.href='https://splendid-gnome-81c535.netlify.app'"
               >
                 Live Demo
               </button>
@@ -388,7 +388,7 @@ function Index() {
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/noah-ayyubi/">LinkedIn</a></p>
+          <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
         </div>
       </div>
     </section>
