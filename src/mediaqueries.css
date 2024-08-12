@@ -146,7 +146,7 @@
       display: block;
       position: absolute;
       left: 50%;
-     
+      bottom: 100px;
       transform: translateX(-50%);
       height: 2rem; /* Adjust this value based on your needs */
   }
@@ -154,7 +154,7 @@
       display: block;
       position: absolute;
       left: 50%;
-      position: absolute;
+     
       transform: translateX(-50%);
       height: 2rem; /* Adjust this value based on your needs */
   }
