@@ -1,132 +1,188 @@
 /* Media query for screens with max width of 900px */
-@media screen and (max-width: 900px) {
-    /* Hide desktop navigation */
-    #desktop-nav {
-        display: none;
-    }
-    .icon-arrow{
-        display:none;
-    }
-    /* Show hamburger navigation */
-    #hamburger-nav {
-        display: flex;
-        
-    }
+@media screen and (max-width: 600px) {
+  /* Hide desktop navigation */
+  #desktop-nav {
+      display: none;
+  }
 
-    /* Style for hamburger menu */
-    .hamburger-menu {
-        position: relative;
-        display: inline-block;
-    }
+  /* Hide arrows by default */
+  .icon-arrow {
+      display: none;
+  }
 
-    /* Remove bullets from menu links */
-    .menu-links li {
-        list-style-type: none;
-        
-    }
+  /* Show hamburger navigation */
+  #hamburger-nav {
+      display: flex;
+  }
 
-    /* Slide-in animation for menu links */
-    .menu-links ul {
-        transform: translateX(100%);
-        animation: slideAndFadeIn 3s forwards;
-    }
+  /* Style for hamburger menu */
+  .hamburger-menu {
+      position: relative;
+      display: inline-block;
+  }
 
-    /* Keyframes for slide-in and fade-in animation */
-    @keyframes slideAndFadeIn {
-        0% {
-            transform: translateX(100%);
-            opacity: 0;
-        }
-        100% {
-            transform: translateX(0);
-            opacity: 1;
-        }
-    }
-    #contact,
-    footer {
+  /* Remove bullets from menu links */
+  .menu-links li {
+      list-style-type: none;
+  }
+
+  /* Slide-in animation for menu links */
+  .menu-links ul {
+      transform: translateX(100%);
+      animation: slideAndFadeIn 3s forwards;
+  }
+
+  /* Keyframes for slide-in and fade-in animation */
+  @keyframes slideAndFadeIn {
+      0% {
+          transform: translateX(100%);
+          opacity: 0;
+      }
+      100% {
+          transform: translateX(0);
+          opacity: 1;
+      }
+  }
+
+  #contact,
+  footer {
       height: 40vh;
-    }
-    #profile {
-      height: 83vh;
+  }
+
+  #profile {
+     
       margin-bottom: 0;
-    }
-    
-    article {
+      position: relative; /* Ensure the arrow can be positioned relative to this section */
+  }
+
+  article {
       font-size: 1rem;
-    }
-    footer nav {
+  }
+
+  footer nav {
       height: fit-content;
       margin-bottom: 2rem;
-    }
-    .about-containers,
-    .contact-info-upper-container,
-    .btn-container {
-      flex-wrap: wrap;
-    }
-    .contact-info-container {
-      margin: 0;
-    }
-    .contact-info-container p,
-    .nav-links li a {
-      font-size: 1rem;
-    }
-    .experience-sub-title {
-      font-size: 1.25rem;
-    }
-    .logo {
-      font-size: 1.5rem;
-    }
-    #experience,
-  .experience-details-container {
-    margin-top: 2rem;
   }
+
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+      flex-wrap: wrap;
+  }
+
+  .contact-info-container {
+      margin: 0;
+  }
+
+  .contact-info-container p,
+  .nav-links li a {
+      font-size: 1rem;
+  }
+
+  .experience-sub-title {
+      font-size: 1.25rem;
+  }
+
+  .logo {
+      font-size: 1.5rem;
+  }
+
+  #experience,
+  .experience-details-container {
+      margin-top: 2rem;
+  }
+
   #profile,
   .section-container {
-    display: block;
+      display: block;
   }
+
   .details-container {
-    padding: 1.5rem;
-    flex: 1;
-    background: white;
-    border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
-    text-align: center;
+      padding: 1rem;
+      
+      background: white;
+      border-radius: 2rem;
+      border: rgb(53, 53, 53) 0.1rem solid;
+      border-color: rgb(163, 163, 163);
+      text-align: center;
+      width: 300px; /* Set a maximum width for the containers */
   }
+
   section,
   .section-container {
-    height: fit-content;
+      height: fit-content;
   }
-  .section-container{
-    margin-top: -50px;
+
+  .section-container {
+      margin-top: -50px;
   }
+
   section {
-    margin: 0 5%;
+      margin: 0 5%;
   }
-  .section-pic-container , .section-pic-container2{
-    width: 260px;
-    height: 260px;
-    margin: 0 auto 2rem;
+
+  .section-pic-container, .section-pic-container2 {
+      width: 260px;
+      height: 260px;
+      margin: 0 auto 2rem;
   }
+
   .about-containers {
-    margin-top: 0;
+      margin-top: 0;
   }
+
   .title {
-    font-size: 1rem;
-    
+      font-size: 1rem;
   }
- 
-  .section-text-p2{
+
+  .section-text-p2 {
       font-size: 1.5rem;
       margin-bottom: 1rem;
       gap: 1rem;
   }
+
+  /* Style for the arrow in specific sections */
+  #profile .icon-arrow {
+      display: block;
+      position: absolute;
+      left: 50%;
+     
+      transform: translateX(-50%);
+      height: 2rem; /* Adjust this value based on your needs */
+  }
+  #projects .icon-arrow {
+      display: block;
+      position: absolute;
+      left: 50%;
+     
+      transform: translateX(-50%);
+      height: 2rem; /* Adjust this value based on your needs */
+  }
+  
+  #experience .icon-arrow {
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: 1rem; /* Adjust this value based on your needs */
+      transform: translateX(-50%);
+      height: 2rem; /* Adjust this value based on your needs */
   }
 
+ 
+  #about .icon-arrow {
+      display: block;
+      position: absolute;
+      left: 50%;
+      bottom: 1rem; /* Adjust this value based on your needs */
+      transform: translateX(-50%);
+      height: 2rem; /* Adjust this value based on your needs */
+  }
 
+ 
+}
 
 @media screen and (min-width: 901px) {
-    #desktop-nav a {
-        transition: all 6s ease; /* Apply transition to all properties */
-    }}
-
+  #desktop-nav a {
+      transition: all 6s ease; /* Apply transition to all properties */
+  }
+}

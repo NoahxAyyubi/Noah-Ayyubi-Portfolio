@@ -70,10 +70,10 @@ function Index() {
                 <a href="#about">About</a>
               </li>
               <li>
-                <a href="#experience">Experience</a>
-              </li>
-              <li>
                 <a href="#projects">Projects</a>
+              </li>
+                <a href="#experience">Experience</a>
+              <li>
               </li>
               <li>
                 <a href="#contact">Contacts</a>
@@ -91,11 +91,11 @@ function Index() {
           <p className="section-text-p1">Hello, I'm</p>
           <h1 className="title">Noah Ayyubi</h1>
           <p className="section-text-p1">Your</p>
-          <p className="section-text-p2">Full Stack Developer</p>
+          <p className="section-text-p2">Full Stack Software Engineer</p>
           <div className="btn-container">
             <button
               className="btn-color-1"
-              onClick={() => window.open("/assets/ResforWebsite.pdf")}
+              // onClick={() => window.open("/assets/ResforWebsite.pdf")}
             >
               Download cv
             </button>
@@ -107,35 +107,127 @@ function Index() {
             </button>
           </div>
           <div id="socials-container">
-            <img
+            {/* <img
               src="/assets/linkedin.png"
               alt="my linked in pro"
               className="icon"
               onClick={() => (window.location.href = "https://linkedin.com")}
-            />
+            /> */}
             <img
               src="/assets/github.png"
               alt="my github  pro"
               className="icon"
-              onClick={() => (window.location.href = "https://github.com/")}
+              onClick={() => (window.location.href = "https://github.com/NoahxAyyubi?tab=repositories")}
             />
+            <p>GitHUb</p>
           </div>
         </div>
         <img
     src="./assets/arrow.png"
     alt="Arrow icon"
     className="icon-arrow"
-    onClick={() => (window.location.href = "./#about")}
+    onClick={() => (window.location.href = "./#projects")}
   />
       </section>
+      <section id="projects">
+      <p class="section-text-p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/applerep.gif"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+              <h2 class="experience-sub-title project-title">Apple Replica</h2>
+              <p>3D Model<br></br>Front-End: ThreeJS, React, GSAP<br></br>Back-End: Java, RestAPI, MySQL</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onClick={() => (window.location.href = "https://github.com/NoahxAyyubi/Apple-Replica")}
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onClick={() => (window.location.href = "https://apple-replica-neon.vercel.app/")}
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/2dGame.gif"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+              <h2 class="experience-sub-title project-title">Lost In Space</h2>
+              <p>2D Retro Ganme<br></br>Front-End: JS, 2DCanvas, HTML5<br></br>Back-End: Java, RestAPI, MySQL</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onClick={() => (window.location.href = "https://github.com/NoahxAyyubi/LostInSpace")}
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onClick={() => (window.location.href = "https://lost-in-space-kpnlba318-noahxayyubis-projects.vercel.app/")}
+                
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/scamazon.gif"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+              <h2 class="experience-sub-title project-title">Scamazon</h2>
+              <p>E-commerce Web Application<br></br>Front-End: JS, HTML, CSS, React<br></br>Back-End: Java, MySQL, FireBase</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onClick={() => (window.location.href = "https://github.com/NoahxAyyubi/eCommerce-Website")}
+                
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onClick={() => (window.location.href = "https://e-commerce-website-gold-beta.vercel.app/")}
+              
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon-arrow"
+        onClick={() => (window.location.href = "./#about")}
+      />
+    </section>
     <section id="about">
-  <p className="section-text-p1">Get To Know More</p>
-  <h1 className="title">About Me</h1>
+
   <div className="section-container">
-    <div className="section-pic-container2">
-      {/* Your picture or image goes here */}
-    </div>
-    <div className="about-details-container">
+    
+          <div className="about-details-container">
+          <p className="section-text-p1">Get To Know More</p>
+          <h1 className="title">About Me</h1>
       <div className="about-containers">
         <div className="details-container">
           <img
@@ -281,106 +373,22 @@ function Index() {
         src="./assets/arrow.png"
         alt="Arrow icon"
         class="icon-arrow"
-        onClick={() => (window.location.href = "./#projects")}
-      />
-    </section>
-    <section id="projects">
-      <p class="section-text-p1">Browse My Recent</p>
-      <h1 class="title">Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/NoahxAyyubi/eCommerce-Website.git'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://splendid-gnome-81c535.netlify.app'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-3.png"
-                alt="Project 3"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">Project Three</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon-arrow"
         onClick={() => (window.location.href = "./#contact")}
       />
     </section>
+   
     <section id="contact">
       <p class="section-text-p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
-      <div class="contact-info-upper-container">
+        <div class="contact-info-upper-container">
+       
         <div class="contact-info-container">
           <img
             src="./assets/email.png"
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:nma9293569691@gmail.com">NMA9293569691@gmail.com</a></p>
+          <p><a href="mailto:nma9293569691@gmail.com">NMA9293569691@gmail.com</a><br></br> Phone: 929-356-9691</p>
         </div>
         <div class="contact-info-container">
           <img
@@ -389,8 +397,10 @@ function Index() {
             class="icon contact-icon"
           />
           <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+          </div>
+          
         </div>
-      </div>
+        
     </section>
       <div className="app-container">
         {init && (
