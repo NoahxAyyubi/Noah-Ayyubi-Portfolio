@@ -179,7 +179,7 @@ function Index() {
               </button>
               <button
                 class="btn btn-color-2 project-btn"
-                onClick={() => (window.location.href = "https://lost-in-space-kpnlba318-noahxayyubis-projects.vercel.app/")}
+                onClick={() => (window.location.href = "https://lost-in-space-by-noah-ayyubi.vercel.app/")}
                 
               >
                 Live Demo
