@@ -146,7 +146,7 @@
     display: block;
     position: absolute;
     right: 5rem; /* Adjust this value to position it on the right */
-    bottom: 12rem; /* Adjust this value based on your needs */
+    bottom: 10rem; /* Adjust this value based on your needs */
     height: 2rem; /* Adjust this value based on your needs */
 }
   #projects .icon-arrow {
