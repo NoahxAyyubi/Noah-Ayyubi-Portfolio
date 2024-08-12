@@ -121,13 +121,14 @@ function Index() {
             />
             <p>GitHUb</p>
           </div>
-        </div>
-        <img
+          <img
     src="./assets/arrow.png"
     alt="Arrow icon"
     className="icon-arrow"
     onClick={() => (window.location.href = "./#projects")}
   />
+        </div>
+        
       </section>
       <section id="projects">
       <p class="section-text-p1">Browse My Recent</p>
