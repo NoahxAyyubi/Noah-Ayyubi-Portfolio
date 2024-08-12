@@ -143,13 +143,12 @@
 
   /* Style for the arrow in specific sections */
   #profile .icon-arrow {
-      display: block;
-      position: absolute;
-      left: 50%;
-      bottom: 100px;
-      transform: translateX(-50%);
-      height: 2rem; /* Adjust this value based on your needs */
-  }
+    display: block;
+    position: absolute;
+    right: 5rem; /* Adjust this value to position it on the right */
+    bottom: 11rem; /* Adjust this value based on your needs */
+    height: 2rem; /* Adjust this value based on your needs */
+}
   #projects .icon-arrow {
       display: block;
       position: absolute;
