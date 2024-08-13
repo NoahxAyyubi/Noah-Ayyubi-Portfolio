@@ -169,7 +169,7 @@ function Index() {
               />
             </div>
               <h2 class="experience-sub-title project-title">Lost In Space</h2>
-              <p>2D Retro Ganme<br></br>Front-End: JS, 2DCanvas, HTML5<br></br>Back-End: Java, RestAPI, MySQL</p>
+              <p>2D Retro Game<br></br>Front-End: JS, 2DCanvas, HTML5<br></br>Back-End: Java, RestAPI, MySQL</p>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
