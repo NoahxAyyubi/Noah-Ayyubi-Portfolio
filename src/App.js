@@ -213,6 +213,33 @@ function Index() {
               </button>
             </div>
           </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/Quote.gif"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+              <h2 class="experience-sub-title project-title">Aesthetic Quote Generator</h2>
+              <p>Web Application<br></br>Front-End: TypeScript, GSAP,<br></br>Back-End: Java, MySQL</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onClick={() => (window.location.href = "https://github.com/NoahxAyyubi/TypeScriptGSAP-AestheticQuoteGenerator")}
+                
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onClick={() => (window.location.href = "https://type-script-api-quote-generator.vercel.app/")}
+              
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
         </div>
       </div>
       <img
