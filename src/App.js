@@ -160,6 +160,32 @@ function Index() {
               </button>
             </div>
           </div>
+            <div class="details-container color-container" >
+            <div class="article-container">
+              <img
+                src="./assets/twitterfeed.gif"
+                alt="Project 1"
+                  class="project-img"
+                  style={{  border: '5px solid black', borderRadius: '15px' }}
+              />
+            </div>
+              <h2 class="experience-sub-title project-title">Twitter Feed</h2>
+              <p>CRUD<br></br>Front-End: VanillaJS, TypeScript,<br></br>Back-End: NodeJs, ExpressJS, JSONBin</p>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onClick={() => (window.location.href = "https://github.com/NoahxAyyubi/HTMLJSCSSFullStack-TwitterFeed.git")}
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onClick={() => (window.location.href = "htmljscss-full-stack-twitter-feed.vercel.app")}
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
           <div class="details-container color-container">
             <div class="article-container">
               <img
