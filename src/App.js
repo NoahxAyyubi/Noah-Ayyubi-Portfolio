@@ -113,13 +113,26 @@ function Index() {
               className="icon"
               onClick={() => (window.location.href = "https://linkedin.com")}
             /> */}
-            <img
-              src="/assets/github.png"
-              alt="my github  pro"
-              className="icon"
-              onClick={() => (window.location.href = "https://github.com/NoahxAyyubi?tab=repositories")}
-            />
-            <p>GitHUb</p>
+            <a href="https://github.com/NoahxAyyubi?tab=repositories">
+              <img
+                src="/assets/github.png"
+                alt="GitHub profile"
+                className="icon"
+              />
+              <p>GitHub</p>
+            </a>
+            <p className="github-ownership-note">
+              <em>
+                Note: My GitHub username is the alias noahxayyubi, but all projects
+                are owned by Mohammed Houqe, including this portfolio page.
+              </em>
+            </p>
+            <a
+              className="portfolio-source-link"
+              href="https://github.com/NoahxAyyubi/Noah-Ayyubi-Portfolio"
+            >
+              Portfolio source on GitHub
+            </a>
           </div>
           <img
     src="./assets/arrow.png"
@@ -475,7 +488,17 @@ function Index() {
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:nma9293569691@gmail.com">NMA9293569691@gmail.com</a><br></br> Phone: 929-356-9691</p>
+          <div className="contact-details">
+            <p>
+              <strong>Primary:</strong>{" "}
+              <a href="mailto:mxh2026@gmail.com">mxh2026@gmail.com</a>
+            </p>
+            <p>
+              <strong>Secondary:</strong>{" "}
+              <a href="mailto:nma9293569691@gmail.com">NMA9293569691@gmail.com</a>
+            </p>
+            <p>Phone: 929-356-9691</p>
+          </div>
         </div>
         {/* <div class="contact-info-container">
           <img

@@ -102,6 +102,48 @@ section{
 
 font-weight: 600;
 }
+
+#profile .section-text {
+  flex-shrink: 1;
+  min-width: 0;
+  width: 100%;
+  max-width: 34rem;
+}
+
+#profile .github-ownership-note {
+  margin: 1rem auto 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.portfolio-source-link {
+  font-size: 0.875rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media screen and (max-width: 1000px) {
+  #profile {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #profile .section-text {
+    margin: 0 auto;
+  }
+
+  #profile .section-text .icon-arrow {
+    position: static;
+    display: block;
+    height: 2rem;
+    margin: 1.5rem auto 0;
+  }
+}
 .section-text-p1{
   align-self: center;
     text-align: center;
@@ -395,6 +437,8 @@ article .icon {
   background: (250, 250, 250);
   margin: 2rem auto;
   padding: 0.5rem;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 .contact-info-container {
@@ -415,4 +459,22 @@ article .icon {
 
 .email-icon {
   height: 2.5rem;
+  flex-shrink: 0;
+}
+
+#contact .contact-info-container {
+  min-width: 0;
+  margin: 0.5rem;
+}
+
+.contact-details {
+  display: grid;
+  gap: 0.5rem;
+  min-width: 0;
+  text-align: left;
+  overflow-wrap: anywhere;
+}
+
+#contact .contact-details p {
+  font-size: 1rem;
 }
