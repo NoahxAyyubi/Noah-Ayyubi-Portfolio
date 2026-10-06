@@ -89,16 +89,16 @@ function Index() {
         </div>
         <div className="section-text">
           <p className="section-text-p1">Hello, I'm</p>
-          <h1 className="title">Noah Ayyubi</h1>
-          <p className="section-text-p1">Your</p>
-          <p className="section-text-p2">Full Stack Software Engineer</p>
+          <h1 className="title">Mohamed Houqe</h1>
+          {/* <p className="section-text-p1">Your</p>
+          <p className="section-text-p2">Full Stack Software Engineer</p> */}
           <div className="btn-container">
-            <button
+            {/* <button
               className="btn-color-1"
               // onClick={() => window.open("/assets/ResforWebsite.pdf")}
             >
               Download cv
-            </button>
+            </button> */}
             <button
               className="btn-color-2"
               onClick={() => (window.location.href = "./#contact")}
@@ -321,8 +321,46 @@ function Index() {
         <h1 className="title">Experience</h1>
         <div className="experience-details-container">
           <div className="about-containers">
+            <div className="details-container automation-experience">
+              <h2 className="experience-sub-title">Software Automation Testing</h2>
+              <div className="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    className="icon"
+                  />
+                  <div>
+                    <h4>UI Testing</h4>
+                    <p>Selenium</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    className="icon"
+                  />
+                  <div>
+                    <h4>API Testing</h4>
+                    <p>REST Assured, Postman</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    className="icon"
+                  />
+                  <div>
+                    <h4>CI/CD</h4>
+                    <p>Jenkins</p>
+                  </div>
+                </article>
+              </div>
+            </div>
             <div className="details-container">
-              <h2 className="experience-sub-title">Frontend Development</h2>
+              <h2 className="experience-sub-title">Frontend &amp; Backend Development</h2>
               <div className="article-container">
                 <article>
                   <img
@@ -370,11 +408,6 @@ function Index() {
                 </div>
               </article>
               
-            </div>
-          </div>
-          <div class="details-container">
-            <h3 class="experience-sub-title">Backend Development</h3>
-            <div class="article-container">
               <article>
                 <img
                   src="./assets/checkmark.png"
@@ -444,14 +477,14 @@ function Index() {
           />
           <p><a href="mailto:nma9293569691@gmail.com">NMA9293569691@gmail.com</a><br></br> Phone: 929-356-9691</p>
         </div>
-        <div class="contact-info-container">
+        {/* <div class="contact-info-container">
           <img
             src="./assets/linkedin.png"
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
           <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
-          </div>
+          </div> */}
           
         </div>
         
