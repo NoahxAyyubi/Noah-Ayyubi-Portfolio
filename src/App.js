@@ -131,7 +131,7 @@ function Index() {
               className="portfolio-source-link"
               href="https://github.com/NoahxAyyubi/Noah-Ayyubi-Portfolio"
             >
-              Portfolio source on GitHub
+              Source code
             </a>
           </div>
           <img
